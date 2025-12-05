@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+
+    <title>ALPHABET Gallery</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#hero" class="navbar-brand">KHAI & DANH</a>
+        <button class="navbar-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#parent-info" class="nav-link">Thông Tin</a></li>
+          <li><a href="#alphabet" class="nav-link">Alphabet</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">KHAI & DANH</h1>
+        <p class="hero-subtitle">Alphabet Learning Program</p>
+        <p class="hero-description">Phần mềm hỗ trợ học chữ cái cho trẻ em -- tập làm quen với Alphabet</p>
+      </div>
+    </section>
+
+    <div class="side-decor left" aria-hidden="true"></div>
+    <div class="side-decor right" aria-hidden="true"></div>
+    <div class="rainbow-animal left" aria-hidden="true"></div>
+    <div class="rainbow-animal right" aria-hidden="true"></div>
+
+    <section class="main-content">
+      <div class="container">
+        <section class="parent-info" id="parent-info">
+          <h2 class="parent-info-title">Thông Tin Cho Phụ Huynh</h2>
+          <div class="parent-info-content">
+            <p>Trang học này giúp trẻ làm quen với bảng chữ cái tiếng Anh qua hình ảnh, âm thanh và video ngắn. Mỗi chữ cái là một nút — nhấn để mở thẻ chứa chữ lớn, hình minh họa và video liên quan.</p>
+            <p><strong>Mục tiêu học:</strong> nhận diện chữ cái, kết nối chữ với hình ảnh và từ, cải thiện kỹ năng nghe và phát âm cơ bản.</p>
+            <p><strong>Mẹo sử dụng cùng trẻ:</strong></p>
+            <ul>
+              <li>Khuyến khích trẻ nói tên chữ và vật trong ảnh sau khi xem.</li>
+              <li>Sử dụng nút Play để xem video cùng trẻ, sau đó nhắc lại từ vựng bằng ngôn ngữ đơn giản.</li>
+              <li>Thời lượng ngắn và lặp lại thường xuyên (5–10 phút/ngày) hiệu quả nhất cho trẻ nhỏ.</li>
+            </ul>
+            <p class="small"><em>Ghi chú: một số video được nhúng từ YouTube — vui lòng giám sát khi trẻ xem.</em></p>
+          </div>
+        </section>
+
+        <h2 class="section-title">Explore the Alphabet</h2>
+        <p class="section-description">Click any letter to see its image, learn pronunciation, and watch a video</p>
+
+        <div class="letters-grid wrap" id="alphabet">
+      <button class="letter-btn" data-letter="A" data-img="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" data-caption="Apple" data-video="https://www.youtube.com/embed/gsb999VSvh8?si=AiThFQU1wKywnNQy">A</button>
+      <button class="letter-btn" data-letter="B" data-img="https://upload.wikimedia.org/wikipedia/commons/7/77/Playing_in_the_Nuba_mountains.jpg" data-caption="Ball" data-video="https://www.youtube.com/embed/kzzXROKd-i0?list=RDkzzXROKd-i0">B</button>
+      <button class="letter-btn" data-letter="C" data-img="https://upload.wikimedia.org/wikipedia/commons/b/b6/Felis_catus-cat_on_snow.jpg" data-caption="Cat" data-video="https://www.youtube.com/embed/1dhzPuT6jm0?list=RD1dhzPuT6jm0">C</button>
+      <button class="letter-btn" data-letter="D" data-img="https://upload.wikimedia.org/wikipedia/commons/9/d/White_dog_sleeping_on_the_floor_with_puppies_after_nursing_in_Don_Det_Laos.jpg" data-caption="Dog" data-video="https://www.youtube.com/embed/nb8DqaQmNWg?list=RDnb8DqaQmNWg">D</button>
+      <button class="letter-btn" data-letter="E" data-img="https://upload.wikimedia.org/wikipedia/commons/f/fb/Chicken_Egg_without_Eggshell_5859.jpg" data-caption="Egg" data-video="https://www.youtube.com/embed/beaUUPPUT2Y">E</button>
+      <button class="letter-btn" data-letter="F" data-img="https://upload.wikimedia.org/wikipedia/commons/0/0e/Ensenada_fish_market_2.jpg" data-caption="Fish" data-video="https://www.youtube.com/embed/gVJQL1E7BFQ?list=RDgVJQL1E7BFQ">F</button>
+
+      <button class="letter-btn" data-letter="G" data-img="https://upload.wikimedia.org/wikipedia/commons/e/ef/Giraffe-closeup-head.jpg" data-caption="Giraffe" data-video="https://www.youtube.com/embed/0KXtxIiQ7gk?list=RD0KXtxIiQ7gk">G</button>
+      <button class="letter-btn" data-letter="H" data-img="https://upload.wikimedia.org/wikipedia/commons/6/6a/Ronald_Reagan_with_cowboy_hat_2-0071M_edit.jpg" data-caption="Hat" data-video="https://www.youtube.com/embed/NtUSMBzacQ0?list=RDNtUSMBzacQ0">H</button>
+      <button class="letter-btn" data-letter="I" data-img="https://upload.wikimedia.org/wikipedia/commons/4/40/Aurora_australis_dancing_over_an_LED_illuminated_igloo.jpg" data-caption="Igloo" data-video="https://www.youtube.com/embed/P56hZEhqFCw?list=RDP56hZEhqFCw">I</button>
+      <button class="letter-btn" data-letter="J" data-img="https://upload.wikimedia.org/wikipedia/commons/6/67/Orange_juice_1_edit1.jpg" data-caption="Juice" data-video="https://www.youtube.com/embed/6KXX6fCKWes?list=RD6KXX6fCKWes">J</button>
+      <button class="letter-btn" data-letter="K" data-img="https://upload.wikimedia.org/wikipedia/commons/b/b8/Kite_flying_over_Pasing_04.jpg" data-caption="Kite" data-video="https://www.youtube.com/embed/OGVbUgqp7LQ?list=RDOGVbUgqp7LQ">K</button>
+      <button class="letter-btn" data-letter="L" data-img="https://upload.wikimedia.org/wikipedia/commons/9/9e/Lion_%28Panthera_leo%29_male_6y.jpg" data-caption="Lion" data-video="https://www.youtube.com/embed/qEXMoeYe47c?list=RDqEXMoeYe47c">L</button>
+
+      <button class="letter-btn" data-letter="M" data-img="https://upload.wikimedia.org/wikipedia/commons/c/c8/Monkey_eating.jpg" data-caption="Monkey" data-video="https://www.youtube.com/embed/Nvn9QvV7Aqk?list=RDNvn9QvV7Aqk">M</button>
+      <button class="letter-btn" data-letter="N" data-img="https://upload.wikimedia.org/wikipedia/commons/e/e1/Hausrotschwanz_Brutpflege_2006-05-24_11.jpg" data-caption="Nest" data-video="https://www.youtube.com/embed/qE5HEeoVGb0?list=RDqE5HEeoVGb0">N</button>
+      <button class="letter-btn" data-letter="O" data-img="https://upload.wikimedia.org/wikipedia/commons/e/e3/Oranges_-_whole-halved-segment.jpg" data-caption="Orange" data-video="https://www.youtube.com/embed/oWbY5EKys60?list=RDoWbY5EKys60">O</button>
+      <button class="letter-btn" data-letter="P" data-img="https://upload.wikimedia.org/wikipedia/commons/5/5c/Pot-bellied_pigs_in_Lisbon_Zoo_2008.jpg" data-caption="Pig" data-video="https://www.youtube.com/embed/-v1fg2Hp63s?list=RD-v1fg2Hp63s">P</button>
+      <button class="letter-btn" data-letter="Q" data-img="https://upload.wikimedia.org/wikipedia/commons/5/52/Crown_of_the_Queen_of_Norway_%28fictional%29.svg" data-caption="Queen" data-video="https://www.youtube.com/embed/NKAookrRV4s?list=RDNKAookrRV4s">Q</button>
+      <button class="letter-btn" data-letter="R" data-img="https://upload.wikimedia.org/wikipedia/commons/3/39/Lapin_blanc.jpg" data-caption="Rabbit" data-video="https://www.youtube.com/embed/gUSJeivdEH8?list=RDgUSJeivdEH8">R</button>
+
+      <button class="letter-btn" data-letter="S" data-img="https://upload.wikimedia.org/wikipedia/commons/5/55/The_sun_and_the_moon_in_South_New_Brighton%27s_beach%2C_New_Zealand.jpg" data-caption="Sun" data-video="https://www.youtube.com/embed/uSVzk2pqWB4?list=RDuSVzk2pqWB4">S</button>
+      <button class="letter-btn" data-letter="T" data-img="https://upload.wikimedia.org/wikipedia/commons/9/9e/Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg" data-caption="Tiger" data-video="https://www.youtube.com/embed/HHEqOLZ0hr4?list=RDHHEqOLZ0hr4">T</button>
+      <button class="letter-btn" data-letter="U" data-img="https://upload.wikimedia.org/wikipedia/commons/3/3a/The_Umbrella_Workshop.jpg" data-caption="Umbrella" data-video="https://www.youtube.com/embed/nPJRhEV-kF8?list=RDnPJRhEV-kF8">U</button>
+      <button class="letter-btn" data-letter="V" data-img="https://upload.wikimedia.org/wikipedia/commons/1/1b/Violin_VL100.png" data-caption="Violin" data-video="https://www.youtube.com/embed/PA47cP88ySw?list=RDPA47cP88ySw">V</button>
+      <button class="letter-btn" data-letter="W" data-img="https://upload.wikimedia.org/wikipedia/commons/6/6a/Southern_right_whale_caudal_fin-2_no_sky.JPG" data-caption="Whale" data-video="https://www.youtube.com/embed/MbUIYnDZZ-M?list=RDMbUIYnDZZ-M">W</button>
+      <button class="letter-btn" data-letter="X" data-img="https://upload.wikimedia.org/wikipedia/commons/6/6d/Nusa-Dua_Bali_Indonesia_Xylophone-player-01.jpg" data-caption="Xylophone" data-video="https://www.youtube.com/embed/RX9Pm9qj_QY?list=RDRX9Pm9qj_QY">X</button>
+
+      <button class="letter-btn" data-letter="Y" data-img="https://upload.wikimedia.org/wikipedia/commons/4/42/Yacht_MB01.jpg" data-caption="Yacht" data-video="https://www.youtube.com/embed/L8PdL8ydI28?list=RDL8PdL8ydI28">Y</button>
+      <button class="letter-btn" data-letter="Z" data-img="https://upload.wikimedia.org/wikipedia/commons/1/10/Zebras_Ngorongoro_Crater.jpg" data-caption="Zebra" data-video="https://www.youtube.com/embed/HysVxhemAe4?list=RDHysVxhemAe4">Z</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="popup-overlay" class="popup-overlay" style="display:none;">
+      <div class="popup-card" role="dialog" aria-modal="true" aria-labelledby="popup-letter">
+        <button class="popup-close" aria-label="Close">×</button>
+        <div class="popup-content">
+          <div class="popup-left text-center">
+            <div id="popup-letter" class="letter bigmodal">A</div>
+            <img class="popup-img" src="" alt="" />
+            <p class="popup-caption"></p>
+            <a class="popup-wiki btn btn-primary" href="#" target="_blank" rel="noopener">Learn on Wikipedia</a>
+          </div>
+          <div class="popup-right">
+            <div class="popup-player">
+              <img id="popup-thumb" class="popup-thumb" src="" alt="Video thumbnail" style="display:none; max-width:100%; border-radius:8px;" />
+              <button id="popup-play" class="popup-play" aria-label="Play video" style="display:none;">▶</button>
+              <div id="popup-iframe" class="popup-iframe"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="contact-title">Get In Touch</h2>
+        <p class="contact-subtitle">Nếu bạn có câu hỏi nào, hoặc có góp ý, hãy liên hệ với chúng tôi thông qua hòm thư góp ý bên dưới!</p>
+        
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="Họ và Tên" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" name="email" placeholder="your.email@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="6" placeholder="Lời nhắn" required></textarea>
+          </div>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:khai.maicao@gmail.com">khai.maicao@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer style="text-align:center;margin:18px 0">© Khai&Danh-Co.</footer>
+
+    <script>
+      (function(){
+        const overlay = document.getElementById('popup-overlay');
+        const card = overlay.querySelector('.popup-card');
+        const popupThumb = document.getElementById('popup-thumb');
+        const popupPlay = document.getElementById('popup-play');
+        const popupIframeWrap = document.getElementById('popup-iframe');
+
+        function getYoutubeId(url){
+          if (!url) return null;
+          const m = url.match(/(?:embed\/|v=|\/v\/|youtu\.be\/)([A-Za-z0-9_-]{11})/);
+          return m ? m[1] : null;
+        }
+
+        function showPopup(letter, img, caption, video){
+          overlay.style.display = 'flex';
+          card.classList.remove('closing');
+          void card.offsetWidth; 
+          card.classList.add('open');
+
+          overlay.querySelector('#popup-letter').textContent = letter;
+          const imgEl = overlay.querySelector('.popup-img');
+          imgEl.src = img || '';
+          imgEl.alt = caption || '';
+          overlay.querySelector('.popup-caption').textContent = caption || '';
+          overlay.querySelector('.popup-wiki').href = 'https://en.wikipedia.org/wiki/' + encodeURIComponent(caption || letter);
+
+          popupIframeWrap.innerHTML = '';
+          const vidId = getYoutubeId(video);
+          if (vidId){
+            popupThumb.src = 'https://img.youtube.com/vi/' + vidId + '/hqdefault.jpg';
+            popupThumb.style.display = '';
+            popupPlay.style.display = 'inline-flex';
+            popupPlay.dataset.embed = 'https://www.youtube.com/embed/' + vidId;
+          } else {
+            popupThumb.src = '';
+            popupThumb.style.display = 'none';
+            popupPlay.style.display = 'none';
+            popupPlay.dataset.embed = '';
+          }
+
+          overlay.querySelector('.popup-close').focus();
+          document.body.style.overflow = 'hidden';
+        }
+
+        function hidePopup(){
+          card.classList.remove('open');
+          card.classList.add('closing');
+          document.body.style.overflow = '';
+          popupIframeWrap.innerHTML = '';
+          popupThumb.style.display = '';
+          popupPlay.style.display = 'inline-flex';
+          setTimeout(()=>{
+            overlay.style.display = 'none';
+            card.classList.remove('closing');
+          }, 300);
+        }
+
+        popupPlay.addEventListener('click', function(){
+          const embed = this.dataset.embed;
+          if (!embed) return;
+          popupIframeWrap.innerHTML = '';
+          const iframe = document.createElement('iframe');
+          iframe.src = embed + '?rel=0&autoplay=1';
+          iframe.title = 'Letter video';
+          iframe.frameBorder = '0';
+          iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+          iframe.allowFullscreen = true;
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          popupIframeWrap.appendChild(iframe);
+          popupThumb.style.display = 'none';
+          this.style.display = 'none';
+        });
+
+        document.addEventListener('click', function(e){
+          const btn = e.target.closest('.letter-btn');
+          if (btn){
+            showPopup(btn.dataset.letter, btn.dataset.img, btn.dataset.caption, btn.dataset.video);
+          }
+        });
+
+        overlay.addEventListener('click', function(e){
+          if (e.target === overlay) hidePopup();
+        });
+
+        overlay.querySelector('.popup-close').addEventListener('click', hidePopup);
+
+        document.addEventListener('keydown', function(e){
+          if (e.key === 'Escape' && overlay.style.display === 'flex') hidePopup();
+        });
+      })();
+
+      const navToggle = document.getElementById('navToggle');
+      const navMenu = document.getElementById('navMenu');
+      const navLinks = navMenu.querySelectorAll('.nav-link');
+
+      navToggle.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+      });
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          navMenu.classList.remove('active');
+        });
+      });
+
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.navbar')) {
+          navMenu.classList.remove('active');
+        }
+      });
+    </script>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">© 2025 KHAI & DANH Alphabet Learning Program</p>
+        <p class="footer-contact">Contact: <a href="mailto:khai.maicao@gmail.com">khai.maicao@gmail.com</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
